@@ -1,3 +1,4 @@
+
 public class Scoreboard
 {
     private String teamOne;
@@ -28,13 +29,14 @@ public class Scoreboard
         }
         if (score == 0)
         {
-          if(activeTeam.equals(teamOne))
-          {
-              activeTeam = teamTwo;
-          }
-        } else if (activeTeam.equals(teamTwo))
-        {
-            activeTeam = teamOne;
+            if(activeTeam.equals(teamOne))
+            {
+                activeTeam = teamTwo;
+            }
+            else if (activeTeam.equals(teamTwo))
+            {
+                activeTeam = teamOne;
+            }
         }
     }
 }
