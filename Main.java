@@ -9,6 +9,7 @@ public class Main
         game.recordPlay(1);
         System.out.println(game.getScore());
         game.recordPlay(0);
+        System.out.println(game.getScore());
         game.recordPlay(3);
         System.out.println(game.getScore());
         game.recordPlay(1);
